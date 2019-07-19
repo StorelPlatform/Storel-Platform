@@ -1,0 +1,11 @@
+[Protocol]
+exec=storel-qt '%u'
+protocol=storel
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

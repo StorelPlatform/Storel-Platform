@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Storel
+Comment=Storel P2P Cryptocurrency
+Comment[fr]=Storel, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Storel, eşten eşe kriptografik sanal para birimi
+Exec=storel-qt %u
+Terminal=false
+Type=Application
+Icon=storel128
+MimeType=x-scheme-handler/storel;
+Categories=Office;Finance;

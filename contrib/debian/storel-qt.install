@@ -1,0 +1,6 @@
+usr/local/bin/storel-qt usr/bin
+share/pixmaps/storel32.xpm usr/share/pixmaps
+share/pixmaps/storel16.xpm usr/share/pixmaps
+share/pixmaps/storel128.png usr/share/pixmaps
+debian/storel-qt.desktop usr/share/applications
+debian/storel-qt.protocol usr/share/kde4/services/

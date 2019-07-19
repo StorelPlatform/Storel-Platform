@@ -1,0 +1,22 @@
+[Unit]
+Description=Storel's distributed currency daemon
+After=network.target
+
+[Service]
+User=storelcore
+Group=storelcore
+
+Type=forking
+PIDFile=/var/lib/storeld/storeld.pid
+ExecStart=/usr/bin/storeld -daemon -pid=/var/lib/storeld/storeld.pid \
+-conf=/etc/storelcore/storel.conf -datadir=/var/lib/storeld -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

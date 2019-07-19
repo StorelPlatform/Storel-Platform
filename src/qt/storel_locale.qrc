@@ -1,0 +1,20 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/storel_bg.qm</file>
+        <file alias="de">locale/storel_de.qm</file>
+        <file alias="en">locale/storel_en.qm</file>
+        <file alias="es">locale/storel_es.qm</file>
+        <file alias="fi">locale/storel_fi.qm</file>
+        <file alias="fr">locale/storel_fr.qm</file>
+        <file alias="it">locale/storel_it.qm</file>
+        <file alias="ja">locale/storel_ja.qm</file>
+        <file alias="pl">locale/storel_pl.qm</file>
+        <file alias="pt">locale/storel_pt.qm</file>
+        <file alias="ru">locale/storel_ru.qm</file>
+        <file alias="sk">locale/storel_sk.qm</file>
+        <file alias="sv">locale/storel_sv.qm</file>
+        <file alias="vi">locale/storel_vi.qm</file>
+        <file alias="zh_CN">locale/storel_zh_CN.qm</file>
+        <file alias="zh_TW">locale/storel_zh_TW.qm</file>
+    </qresource>
+</RCC>

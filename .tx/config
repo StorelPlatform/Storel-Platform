@@ -1,0 +1,7 @@
+[main]
+host = https://www.transifex.com
+
+[storel.qt-translation-012x]
+file_filter = src/qt/locale/storel_<lang>.ts
+source_file = src/qt/locale/storel_en.ts
+source_lang = en
